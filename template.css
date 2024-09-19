@@ -1,0 +1,118 @@
+body {
+    font-family: sen-serif, arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  header */
+
+header {
+    background: #ff5f2b;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+
+header nav ul li {
+    margin : 25px 8px;
+    font-size: 1.2rem;
+}
+
+header nav ul li a {
+      color: #ffffff;
+    text-decoration : none;
+}
+
+
+/* hero */
+
+
+.hero {
+    background: url('bg.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h3 {
+    font-size: 2.5rem;
+    border: 2px solid black;
+    padding: 10px 20px;
+    background: #ff5f2b;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.hero button {
+    font-size: 1.5rem;
+    padding: 20px 30px;
+    background: #ff5f2b;
+    color: white;
+    border: none;
+    margin: 20px 0 ;
+}
+
+/* menu */
+
+.menu {
+    text-align: center;
+    padding: 30px 20px;
+  
+}
+
+.menu h2 {
+    font-size: 2.5rem;
+    color: #ff5f2b;
+    margin-bottom: 30px;
+}
+
+
+.menu .menu-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    text-align: center;
+}
+
+.menu .menu-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu .menu-item h3 {
+    font-size: 1.5rem;
+}
+
+.menu .menu-item p {
+    font-size: 1.2rem;
+}
+
+.menu .menu-item span {
+    font-size: 1.2rem;
+    color: #ff5f2b;
+}
+
+/* footer */
+
+footer {
+    background: #181c2fee;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px 5px;
+    font-size: 10px;
+}
